@@ -54,7 +54,6 @@ if __name__ == '__main__':
     Varience=float(data['Varience'])
     val1=float(API(City))
     val2=float(selenium(City))
-    print(type(val1),type(val2))
     result=City_varience(val1,val2,Varience)
     if result==1:
         print("success Match")
