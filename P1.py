@@ -41,7 +41,7 @@ def City_varience(val1,val2,Varience):
         difnum=((val1-val2)/val2)*100
     else:
         difnum=0
-    print(difnum)
+    print(str(difnum)+"%")
     if difnum>Varience:
         return 0
     else:
